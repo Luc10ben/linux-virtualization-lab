@@ -1,0 +1,23 @@
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temporary output
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Secrets and private keys — never commit credentials
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Local lab output
+output/
+reports/
